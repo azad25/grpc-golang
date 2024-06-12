@@ -50,7 +50,20 @@ This is a simple gRPC-go application demonstrating a basic service for sending a
 
    This will send a hello world request to the server and print the received response.
 
-## Code Structure
+##Sample Re
+
+## Preview
+### Server
+   ```bash
+   ferdousazad@macbookpro grpc-go % go run server/main.go
+   2024/06/13 01:35:48 gRPC server listening at [::]:50051
+   ```
+### Client
+   ```bash
+   ferdousazad@macbookpro grpc-go % go run client/main.go
+   2024/06/13 01:36:08 Response from gRPC server's SayHello function: Hello, World! 
+   ```
+
 
 The project consists of the following files:
 

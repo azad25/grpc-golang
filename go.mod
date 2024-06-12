@@ -1,4 +1,4 @@
-module github.com/pascalallen/grpc-go
+module github.com/azad25/grpc-golang
 
 go 1.22.1
 
